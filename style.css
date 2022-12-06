@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white
+}
+
+.per-person{
+    font-size: 10px;
+    color: #B6B6B6;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.num_value{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+main{
+    width: 500px;
+    height: 800px;
+    background-color: #360160;
+}
+
+button{
+    width: 180px;
+    height: 60px;
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    border: 0px;
+}
+
+.confirm{
+    background-color: #FFDC40;
+    color: black
+}
+
+.reset{
+    background-color: #7C7A7A;
+    color: white
+}
+
+p{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+label{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 47px;
+    color: #FFDC40;
+}
+
+input, select{
+    background: #FFFFFF;
+    border: 2px solid #A4CEF4;
+    border-radius: 5px;
+    width: 380px;
+    height: 50px;
+    padding: 0px;
+}
+
+select, input, option{
+    color: black;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+wrapper{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+span{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+
+.inputs-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.output-wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 52px;
+}
+
+.p-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

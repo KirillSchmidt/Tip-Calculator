@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор чаевых</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+    <wrapper>
+        <h1>Калькулятор чаевых</h1>
+
+        <form>
+
+            <div class="inputs-wrapper">
+                <div><label>Сумма по счёту</label>
+                <input type="number" class="order-sum"/></div>
+
+                <div><label>Качество обслуживания</label>
+                <select class="quality">
+                    <option value="0">Плохое (0%)</option>
+                    <option value="0.05">Нормальное (5%)</option>
+                    <option value="0.1">Хорошее (10%)</option>
+                    <option value="0.15">Отличное (15%)</option>
+                </select></div>
+
+                <div><label>Количество человек</label>
+                <input type="number" class="amount"/></div>
+            </div>
+
+            <div class="button-wrapper">
+                <button class="confirm">Посчитать</button>
+                <button class="reset">Сбросить</button>
+            </div>
+
+            
+        </form>
+
+        <div class="output-wrapper">
+            <div class="p-wrapper"><p>Чаевые:<span class="tips-per-person num_value">0 руб.</span><span class="per-person">(с каждого)</span></p></div>
+            <div class="p-wrapper"><p>Всего:<span class="tips-total num_value">0 руб.</span><span class="per-person">(с каждого)</span></p></div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </wrapper>
+    </main>
+</body>
+</html>
