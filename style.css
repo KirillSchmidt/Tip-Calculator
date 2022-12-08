@@ -23,6 +23,8 @@ main{
     width: 500px;
     height: 800px;
     background-color: #360160;
+    margin: auto;
+    align-self: center;
 }
 
 button{

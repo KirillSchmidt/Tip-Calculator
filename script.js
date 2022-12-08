@@ -20,9 +20,9 @@ function calculate_tips(event){
 
 function reset_all(event){
     event.preventDefault()
-    span_tips_total.innerHTML = "0 руб." // we have to round up
-    span_per_person.innerHTML = "0 руб." // use .toFixed
+    span_tips_total.innerHTML = "0 руб."
+    span_per_person.innerHTML = "0 руб."
     n_people.value = ''
     order_sum.value = ''
-    quality.value = '0.1' // can be changed
+    quality.value = '0.1' // can be changed, this is only the default choice
 }
