@@ -14,8 +14,8 @@ function calculate_tips(event){
     sum = Number(order_sum.value)
     num = n_people.value
     let tips = sum * Number(quality.value)
-    span_per_person.innerHTML = tips/num+" руб."
-    span_tips_total.innerHTML = (sum+tips)/num+" руб."
+    span_per_person.innerHTML = (tips/num).toFixed(2)+" руб."
+    span_tips_total.innerHTML = ((sum+tips)/num).toFixed(2)+" руб."
 }
 
 function reset_all(event){
