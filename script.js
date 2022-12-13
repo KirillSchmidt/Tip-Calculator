@@ -26,3 +26,4 @@ function reset_all(event){
     order_sum.value = ''
     quality.value = '0.1' // can be changed, this is only the default choice
 }
+

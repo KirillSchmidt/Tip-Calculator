@@ -40,6 +40,10 @@ button{
     border: 0px;
 }
 
+button:hover, option:hover, select:hover{
+    cursor: pointer;
+}
+
 .confirm{
     background-color: #FFDC40;
     color: black
